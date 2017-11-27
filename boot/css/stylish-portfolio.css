@@ -176,6 +176,7 @@ hr.small {
 
 .about {
     padding: 50px 0;
+    background-color: white;
 }
 
 
@@ -183,10 +184,14 @@ hr.small {
 
 .services {
     padding: 50px 0;
+    
 }
-
+.bg-primary {
+    background-color: #96d769!important;
+}
 .service-item {
     margin-bottom: 30px;
+
 }
 
 
@@ -203,7 +208,9 @@ hr.small {
     -o-background-size: cover;
     background-size: cover;
 }
-
+.portfolio{
+    
+}
 
 /* Portfolio */
 

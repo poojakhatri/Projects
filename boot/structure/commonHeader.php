@@ -8,7 +8,7 @@
           <i class="fa fa-times"></i>
         </a>
         <li class="sidebar-brand">
-          <a class="js-scroll-trigger" href="index.php#top">Start Bootstrap</a>
+          <a class="js-scroll-trigger" href="index.php#top">Jaipur Tourism</a>
         </li>
         <li>
           <a class="js-scroll-trigger" href="index.php#top">Home</a>
@@ -23,7 +23,7 @@
           <a class="js-scroll-trigger" href="index.php#portfolio">Portfolio</a>
         </li>
         <li>
-          <a class="js-scroll-trigger" href="index.php#contact" onclick=$( "#menu-close").click();>Contact</a>
+          <a class="js-scroll-trigger" href="index.php#contact" onclick=$( "#menu-close").click();>Contact Us</a>
         </li>
       </ul>
     </nav>

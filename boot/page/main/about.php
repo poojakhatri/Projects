@@ -1,5 +1,5 @@
  <!-- About -->
-    <section id="about" class="about">
+    <section id="about" class="about" style="background-color: white">
       <div class="container text-center">
         <h2>Welcome To Pink City</h2>
         <p class="lead">Rajasthan's beautiful Pink City Jaipur, was the stronghold of a clan of rulers whose three hill forts and series of palaces in the city are important attractions.

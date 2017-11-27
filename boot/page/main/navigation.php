@@ -14,7 +14,7 @@
           <a class="js-scroll-trigger" href="#top">Home</a>
         </li>
         <li>
-          <a class="js-scroll-trigger" href="#callout">About Jaipur</a>
+          <a class="js-scroll-trigger" href="#callout">Jaipur History</a>
         </li>
         <li>
           <a class="js-scroll-trigger" href="#services">Services</a>
@@ -23,10 +23,10 @@
           <a class="js-scroll-trigger" href="#portfolio">Portfolio</a>
         </li>
         <li>
-          <a class="js-scroll-trigger" href="#map">Maps</a>
+          <a class="js-scroll-trigger" href="#map">Map</a>
         </li>
         <li>
-          <a class="js-scroll-trigger" href="#contact" onclick=$( "#menu-close").click();>Contact</a>
+          <a class="js-scroll-trigger" href="#contact" onclick=$( "#menu-close").click();>Contact Us</a>
         </li>
       </ul>
     </nav>

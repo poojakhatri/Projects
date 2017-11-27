@@ -28,7 +28,8 @@
                 <div class="col-md-6">
                   <div class="portfolio-item">
                     <a href="post.php?id=<?php echo $blog['id'];?>">
-                      <img class="img-portfolio" src="img/cit.jpg"   width = "445" height = "225">
+
+                      <img class="img-portfolio" src="img/<?php echo $blog['Image'];?>"   width = "445" height = "225">
                     </a>
                     <h4><?php echo $blog['title'];?></h4>
                   </div>

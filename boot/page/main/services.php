@@ -10,52 +10,54 @@
                 <div class="service-item">
                   <span class="fa-stack fa-4x">
                     <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fa fa-cloud fa-stack-1x text-primary"></i>
+                    <i class="fa fa-car fa-stack-1x text-primary"></i>
                   </span>
                   <h4>
                     <strong>Travel Desk</strong>
                   </h4>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                  <a href="#" class="btn btn-light">Learn More</a>
+                  <a href="travelPage.php" class="btn btn-light">See More</a>
+                  <p>Mini tour of traveling.</p>
+                  
                 </div>
               </div>
               <div class="col-md-3 col-sm-6">
                 <div class="service-item">
                   <span class="fa-stack fa-4x">
                     <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fa fa-compass fa-stack-1x text-primary"></i>
+                    <i class="fa fa-shopping-bag fa-stack-1x text-primary"></i>
                   </span>
                   <h4>
                     <strong>Specialities</strong>
                   </h4>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                  <a href="#" class="btn btn-light">Learn More</a>
+                   <a href="specialitiesPage.php" class="btn btn-light">See More</a>
+                  <p>Specialities of special place.</p>
+                 
                 </div>
               </div>
               <div class="col-md-3 col-sm-6">
                 <div class="service-item">
                   <span class="fa-stack fa-4x">
                     <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fa fa-flask fa-stack-1x text-primary"></i>
+                    <i class="fa fa-map fa-stack-1x text-primary"></i>
                   </span>
                   <h4>
                     <strong> Near By </strong>
                   </h4>
-                  <p>heck Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                  <a href="nearBy.php" class="btn btn-light">Learn More</a>
+                  <a href="nearBy.php" class="btn btn-light">See More</a>
+                  <p>List of all near places.</p>
                 </div>
               </div>
               <div class="col-md-3 col-sm-6">
                 <div class="service-item">
                   <span class="fa-stack fa-4x">
                     <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fa fa-shield fa-stack-1x text-primary"></i>
+                    <i class="fa fa-pencil fa-stack-1x text-primary"></i>
                   </span>
                   <h4>
                     <strong>Blog</strong>
                   </h4>
-                  <p>Frequently updated online personal journal or diary</p>
-                  <a href="blog.php" class="btn btn-light">Learn More</a>
+                  <a href="blog.php" class="btn btn-light">See More</a>
+                  <p>Online personal journal</p>
                 </div>
               </div>
             </div>

@@ -14,7 +14,7 @@
       <label for="content">Blog content:</label>
       <textarea class="form-control" id="content" name="content"></textarea>
     </div>
-  <button type="submit" class="btn btn-default">Submit</button>
+  <button type="submit" class="btn btn-default" style="background-color: #28a745">Submit</button>
 </form>
 	</div>
 </div>

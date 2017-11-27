@@ -47,4 +47,35 @@
 			while ($row  = mysqli_fetch_array($result,MYSQLI_ASSOC)) $returnRows[] = $row;
 			return $returnRows;
 		}
+
+		public function getSpecialityBy($blogId = false){
+			$returnRows  = [];
+			$whereCondition = '';
+			if($blogId){
+				$whereCondition = ' where id = '.$blogId;
+			}
+			$blogSearch = 'select * from tour.speciality '. $whereCondition;
+
+			$result  = mysqli_query($this->connection, $blogSearch);
+			while ($row  = mysqli_fetch_array($result,MYSQLI_ASSOC)) $returnRows[] = $row;
+			return $returnRows;
+		}
+
+		public function getTravelBy($blogId = false){
+			$returnRows  = [];
+			$whereCondition = '';
+			if($blogId){
+				$whereCondition = ' where id = '.$blogId;
+			}
+			$blogSearch = 'select * from tour.travel '. $whereCondition;
+
+			$result  = mysqli_query($this->connection, $blogSearch);
+			while ($row  = mysqli_fetch_array($result,MYSQLI_ASSOC)) $returnRows[] = $row;
+			return $returnRows;
+		}
+
+		public function insertData( $name, $mobile, $email ){
+			$query = 'INSERT INTO tour.userdetail (name, email, mobile) VALUES ("'.$name.'", "'.$mobile.'", "'.$email.'");  ';
+			mysqli_query( $this->connection, $query );
+		}
 	}
